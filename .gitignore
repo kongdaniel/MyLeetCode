@@ -1,0 +1,8 @@
+/.idea/.gitignore
+/.idea/.name
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/jarRepositories.xml
+/.idea/
+*.class
+/target/*
