@@ -63,6 +63,7 @@ public class Question6 {
                 nums[curent]=prev;
                 prev=temp;
                 curent=next;
+                int kk=99;
 
             }while (i!=curent);
         }
