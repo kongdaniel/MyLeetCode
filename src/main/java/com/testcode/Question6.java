@@ -59,8 +59,8 @@ public class Question6 {
             int prev=nums[i];
             do {
                 int next=(curent+k)%n;
-                int temp=nums[curent];
-                nums[curent]=prev;
+                int temp=nums[next];
+                nums[next]=prev;
                 prev=temp;
                 curent=next;
                 int kk=99;
