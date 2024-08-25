@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 
 // 第88 题 合并两个有序数组
-public class question1 {
+public class Question1 {
 
     public static void main(String[] args) {
         int [] nums1= {1,2,3,0,0,0};
         int [] nums2= {2,5,6};
         int m = 3,  n = 3;
-        question1 question1=new question1();
+        Question1 question1=new Question1();
         question1.merge(nums1,3,nums2,n);
         System.out.printf(Arrays.toString(nums1));
     }
